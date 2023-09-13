@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cws_india *.css
+recursive-include cws_india *.csv
+recursive-include cws_india *.html
+recursive-include cws_india *.ico
+recursive-include cws_india *.js
+recursive-include cws_india *.json
+recursive-include cws_india *.md
+recursive-include cws_india *.png
+recursive-include cws_india *.py
+recursive-include cws_india *.svg
+recursive-include cws_india *.txt
+recursive-exclude cws_india *.pyc
