@@ -1,0 +1,50 @@
+{
+ "cards": [
+  {
+   "card": "New Lead (Last 1 Month)"
+  },
+  {
+   "card": "Open Leads"
+  },
+  {
+   "card": "Assigned Leads"
+  },
+  {
+   "card": "Converted Leads"
+  },
+  {
+   "card": "Rejected Leads"
+  },
+  {
+   "card": "Leads not Updated for 30 days"
+  },
+  {
+   "card": "Converted Leads Last Year (This Month)"
+  },
+  {
+   "card": "Upcoming Events"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Incoming Leads",
+   "width": "Full"
+  },
+  {
+   "chart": "Lead Source",
+   "width": "Half"
+  }
+ ],
+ "creation": "2020-07-20 20:17:15.985657",
+ "dashboard_name": "CRM",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2023-11-08 09:17:19.848994",
+ "modified_by": "Administrator",
+ "module": "CWS India",
+ "name": "CRM",
+ "owner": "Administrator"
+}
