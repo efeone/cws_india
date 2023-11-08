@@ -1,0 +1,67 @@
+[
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2023-09-27 14:24:07.821025",
+  "name": "8b3d48ea2d",
+  "source_text": "Overtime Allowance Request",
+  "translated_text": "Compensatory Accrual Request"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2023-11-03 14:25:38.676005",
+  "name": "8d3315ab2c",
+  "source_text": "Customer",
+  "translated_text": "Organization"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2023-11-03 14:34:34.065767",
+  "name": "5492c8cf41",
+  "source_text": "Customer Name",
+  "translated_text": "Organization Name"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2023-11-03 15:25:36.579368",
+  "name": "e4a580893c",
+  "source_text": "Customer Group",
+  "translated_text": "Organization Group"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2023-11-07 08:54:32.154860",
+  "name": "fb9ad02b1b",
+  "source_text": "Lead",
+  "translated_text": "Contact"
+ }
+]
