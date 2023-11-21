@@ -1,0 +1,23 @@
+{
+ "creation": "2023-11-21 15:44:15.486564",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "label": "Absentee Report",
+ "modified": "2023-11-21 15:46:00.083252",
+ "modified_by": "Administrator",
+ "module": "CWS India",
+ "name": "Absentee Report",
+ "owner": "Administrator",
+ "report_field": "total_leave_days",
+ "report_function": "Sum",
+ "report_name": "Absentee This Week",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}
