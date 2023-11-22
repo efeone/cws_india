@@ -38,13 +38,15 @@ def get_data(filters):
 							status = "Approved"
 						AND
 							(
-								(from_date BETWEEN "{first_day_of_this_week}" AND "{last_day_of_this_week}")
+								WEEK(from_date) = WEEK(NOW())
 							OR
-								(to_date BETWEEN "{first_day_of_this_week}" AND "{last_day_of_this_week}")
+								WEEK(to_date) = WEEK(NOW())
+							OR
+								(from_date < NOW() AND to_date > NOW())
 							)
 						ORDER BY
 							from_date asc
 						""".format(first_day_of_this_week=first_day_of_this_week, last_day_of_this_week=last_day_of_this_week),
-						as_dict=True
+						as_dict=True, debug = True
 					)
 	return data
