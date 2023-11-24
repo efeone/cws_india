@@ -129,23 +129,11 @@ doc_events = {
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-#	"all": [
-#		"cws_india.tasks.all"
-#	],
-#	"daily": [
-#		"cws_india.tasks.daily"
-#	],
-#	"hourly": [
-#		"cws_india.tasks.hourly"
-#	],
-#	"weekly": [
-#		"cws_india.tasks.weekly"
-#	],
-#	"monthly": [
-#		"cws_india.tasks.monthly"
-#	],
-# }
+scheduler_events = {
+	"daily": [
+		"cws_india.cws_inda.custom_scripts.leave_application.leave_application.send_absentee_this_week"
+	]
+}
 
 # Testing
 # -------
