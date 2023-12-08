@@ -14,8 +14,8 @@ def create_donor(doc, method=None):
 			doc: document object of lead
 			method: NA
 	'''
-	if doc.status == 'Converted':
-		if not frappe.db.exists('Donor', {'custom_from_lead':doc.name} and not doc.custom_has_donated_in_the_past):
+	if doc.status == 'Donor':
+		if not frappe.db.exists('Donor', {'custom_from_lead':doc.name}) and not doc.custom_has_donated_in_the_past:
 
 			if doc.custom_lead_type == 'Organization':
 				if not doc.custom_organization:
