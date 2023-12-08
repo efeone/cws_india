@@ -203,3 +203,8 @@ scheduler_events = {
 # auth_hooks = [
 #	"cws_india.auth.validate"
 # ]
+
+fixtures=[
+    {"dt":"Property Setter", "filters":[["module", "=", "CWS India"]]},
+    {"dt":"Translation"}
+]

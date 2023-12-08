@@ -1,37 +1,5 @@
 [
  {
-  "default_value": "Open",
-  "doc_type": "Lead",
-  "docstatus": 0,
-  "doctype": "Property Setter",
-  "doctype_or_field": "DocField",
-  "field_name": "status",
-  "is_system_generated": 0,
-  "modified": "2023-11-08 15:59:54.363363",
-  "module": "CWS India",
-  "name": "Lead-status-options",
-  "property": "options",
-  "property_type": null,
-  "row_name": null,
-  "value": "Open\nAssigned\nProposal\nConverted\nRejected"
- },
- {
-  "default_value": "Open",
-  "doc_type": "Lead",
-  "docstatus": 0,
-  "doctype": "Property Setter",
-  "doctype_or_field": "DocField",
-  "field_name": "status",
-  "is_system_generated": 0,
-  "modified": "2023-11-08 15:59:42.295131",
-  "module": "CWS India",
-  "name": "Lead-status-default",
-  "property": "default",
-  "property_type": null,
-  "row_name": null,
-  "value": "Open"
- },
- {
   "default_value": "Organization",
   "doc_type": "Customer",
   "docstatus": 0,
@@ -62,5 +30,21 @@
   "property_type": null,
   "row_name": null,
   "value": "Organization"
+ },
+ {
+  "default_value": "Contact",
+  "doc_type": "Lead",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "status",
+  "is_system_generated": 0,
+  "modified": "2023-12-08 11:44:54.111804",
+  "module": "CWS India",
+  "name": "Lead-status-options",
+  "property": "options",
+  "property_type": null,
+  "row_name": null,
+  "value": "Contact\nInterested\nCommitted\nDonor\nDo Not Contact"
  }
 ]
