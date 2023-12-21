@@ -32,19 +32,51 @@
   "value": "Organization"
  },
  {
-  "default_value": "Contact",
-  "doc_type": "Lead",
+  "default_value": null,
+  "doc_type": "Donation",
   "docstatus": 0,
   "doctype": "Property Setter",
   "doctype_or_field": "DocField",
-  "field_name": "status",
+  "field_name": "donor",
   "is_system_generated": 0,
-  "modified": "2023-12-08 11:44:54.111804",
+  "modified": "2023-12-20 10:46:54.435281",
   "module": "CWS India",
-  "name": "Lead-status-options",
+  "name": "Donation-donor-reqd",
   "property": "options",
-  "property_type": null,
+  "property_type": "",
   "row_name": null,
-  "value": "Contact\nInterested\nCommitted\nDonor\nDo Not Contact"
+  "value": "CWS Lead"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Donation",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "donor_name",
+  "is_system_generated": 0,
+  "modified": "2023-12-21 07:39:09.001725",
+  "module": "CWS India",
+  "name": "Donation-donor_name-fetch_from",
+  "property": "fetch_from",
+  "property_type": "",
+  "row_name": null,
+  "value": ""
+ },
+ {
+  "default_value": null,
+  "doc_type": "Donation",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "email",
+  "is_system_generated": 0,
+  "modified": "2023-12-20 10:50:17.521157",
+  "module": "CWS India",
+  "name": "Donation-email-fetch_from",
+  "property": "fetch_from",
+  "property_type": "",
+  "row_name": null,
+  "value": "donor.email_id"
  }
 ]
