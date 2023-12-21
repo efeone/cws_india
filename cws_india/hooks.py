@@ -30,7 +30,8 @@ app_license = "MIT"
 
 # include js in doctype views
 doctype_js = {
-        "Lead" : "cws_india/custom_scripts/lead/lead.js"
+        "Lead" : "cws_india/custom_scripts/lead/lead.js",
+        "Donation": "cws_india/custom_scripts/donation/donation.js"
     }
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
@@ -112,9 +113,9 @@ doctype_js = {
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-#	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"Donation": "cws_india.cws_india.overrides.donation.CustomDonation"
+}
 
 # Document Events
 # ---------------
@@ -131,7 +132,7 @@ doc_events = {
 
 scheduler_events = {
 	"daily": [
-		"cws_india.cws_inda.custom_scripts.leave_application.leave_application.send_absentee_this_week"
+		"cws_inda.custom_scripts.leave_application.leave_application.send_absentee_this_week"
 	]
 }
 

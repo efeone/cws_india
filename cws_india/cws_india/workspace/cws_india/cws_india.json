@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"8mAVqUAKQE\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">CWS India</span>\",\"col\":12}},{\"id\":\"uAb1DdShur\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Absentee This Week\",\"col\":3}}]",
+ "content": "[{\"id\":\"8mAVqUAKQE\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">CWS India</span>\",\"col\":12}},{\"id\":\"gO8l0QvCe4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lead\",\"col\":3}},{\"id\":\"NkSuLEC2S5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Organization\",\"col\":3}},{\"id\":\"r5f2CgAL2F\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Government\",\"col\":3}},{\"id\":\"pJglAoouRE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Donation\",\"col\":3}}]",
  "creation": "2023-11-22 10:07:29.439629",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "CWS India",
  "links": [],
- "modified": "2023-11-22 10:11:01.820321",
+ "modified": "2023-12-20 10:29:36.178126",
  "modified_by": "Administrator",
  "module": "CWS India",
  "name": "CWS India",
@@ -27,9 +27,34 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "label": "Absentee This Week",
-   "link_to": "Absentee This Week",
-   "type": "Report"
+   "label": "Donation",
+   "link_to": "Donation",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Lead",
+   "link_to": "CWS Contact",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Organization",
+   "link_to": "Organization",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Government",
+   "link_to": "Government Contact",
+   "stats_filter": "[]",
+   "type": "DocType"
   }
  ],
  "title": "CWS India"

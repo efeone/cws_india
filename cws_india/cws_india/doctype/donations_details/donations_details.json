@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-18 15:23:37.363739",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "donation",
+  "donor_name",
+  "date",
+  "amount",
+  "is_soft_credit"
+ ],
+ "fields": [
+  {
+   "columns": 3,
+   "fieldname": "donation",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Donation",
+   "options": "Donation"
+  },
+  {
+   "fetch_from": "donation.date",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "donation.amount",
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_soft_credit",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Soft Credit"
+  },
+  {
+   "fetch_from": "donation.donor_name",
+   "fieldname": "donor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Donor Name",
+   "read_only": 1,
+   "width": "2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-21 07:52:23.589458",
+ "modified_by": "Administrator",
+ "module": "CWS India",
+ "name": "Donations Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
