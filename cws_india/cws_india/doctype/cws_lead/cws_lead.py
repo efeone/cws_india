@@ -28,7 +28,8 @@ class CWSLead(Document):
         self.validate_email_id()
         
     def before_save(self):
-        sync_donations(self.name)
+        if not self.is_new():
+            sync_donations(self.name)
 
     def before_insert(self):
         self.contact_doc = None
