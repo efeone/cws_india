@@ -27,6 +27,7 @@
   "language",
   "column_break_45",
   "more_details",
+  "remarks",
   "dashboard_tab",
   "contact_and_address_tab",
   "address_contacts",
@@ -66,7 +67,7 @@
    "oldfieldname": "customer_name",
    "oldfieldtype": "Data",
    "reqd": 1,
-   "search_index": 1
+   "unique": 1
   },
   {
    "fieldname": "customer_group",
@@ -245,6 +246,11 @@
    "label": "More Details",
    "oldfieldname": "customer_details",
    "oldfieldtype": "Code"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
   }
  ],
  "icon": "fa fa-user",
@@ -257,7 +263,7 @@
    "link_fieldname": "party"
   }
  ],
- "modified": "2023-12-18 14:05:56.167537",
+ "modified": "2024-01-10 08:57:45.800714",
  "modified_by": "Administrator",
  "module": "CWS India",
  "name": "Organization",
