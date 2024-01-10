@@ -373,7 +373,7 @@
  "icon": "fa fa-user",
  "image_field": "image",
  "links": [],
- "modified": "2023-12-20 11:27:09.910622",
+ "modified": "2024-01-10 08:52:24.255414",
  "modified_by": "Administrator",
  "module": "CWS India",
  "name": "CWS Lead",
@@ -389,29 +389,7 @@
   },
   {
    "create": 1,
-   "email": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Sales User",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
    "delete": 1,
-   "email": 1,
-   "export": 1,
-   "import": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Sales Manager",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
    "email": 1,
    "print": 1,
    "read": 1,
@@ -419,18 +397,6 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
-  },
-  {
-   "permlevel": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Sales Manager"
-  },
-  {
-   "permlevel": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Sales User"
   }
  ],
  "search_fields": "lead_name,lead_owner,status",
