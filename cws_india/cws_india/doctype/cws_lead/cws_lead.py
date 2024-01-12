@@ -221,7 +221,7 @@ def _make_customer(source_name, target_doc=None, ignore_permissions=False):
 def sync_donations(name):
     self = frappe.get_doc('CWS Lead', name)
     donations = frappe.db.get_list("Donation", {"donor": self.name, 'docstatus':1}, pluck="name")
-    donations_in_table = frappe.db.get_list('Donations Details', {"parent":self.name}, pluck="donation")
+    donations_in_table = frappe.db.get_all('Donations Details', {"parent":self.name}, pluck="donation")
     for donation in donations:
         print(donation)
         if donation not in donations_in_table:
